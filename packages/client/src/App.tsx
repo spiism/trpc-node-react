@@ -10,6 +10,7 @@ function AppContent() {
   return <main className="p-2">{JSON.stringify(hello.data, null, 2)}</main>;
 }
 
+
 function App() {
   const [queryClient] = useState(
     () =>
